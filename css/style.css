@@ -725,17 +725,111 @@ body {
   margin-top: 15px;
 }
 .header-btn-exp:hover {
-  text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
   color: #fb8f1d;
   background: #fff;
   transition: 0.3s;
 }
 /*=====================HERO STYLES END======================*/
 /*=====================BLOG STYLES START======================*/
-
+.blog {
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
+.blog-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-img {
+  width: 660px;
+  height: auto;
+  margin-right: 60px;
+}
+.blog-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.blog-text {
+  width: 420px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 15px;
+  color: #7d7987;
+  margin-bottom: 30px;
+}
 /*=====================BLOG STYLES END======================*/
 /*=====================SERVICES STYLES START======================*/
-
+.services {
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+.services-content,
+.services-section {
+  display: flex;
+  justify-content: space-between;
+}
+.services-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+.services-btn {
+  width: 100px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #fb8f1d;
+}
+.services-btn::after {
+  content: "";
+  background: url("../img/services-btn.svg") no-repeat 0 0 / cover;
+  width: 5px;
+  height: 10px;
+  margin-left: 10px;
+}
+.services-btn:hover::after {
+  margin-left: 20px;
+  transition: 0.3s;
+}
+.services-box {
+  display: flex;
+  align-items: flex-end;
+}
+.services-img {
+  width: 260px;
+  height: auto;
+  border-radius: 8px;
+}
+.services-box-content {
+  border-radius: 0px 6px 0px 0px;
+  background: #fff;
+  font-size: 17px;
+  line-height: 30px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.services-box-place-link {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #042521;
+}
+.services-box-place-link:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.services-box-country-link {
+  font-weight: 300;
+  color: #7d7987;
+}
 /*=====================SERVICES STYLES END======================*/
 /*=====================BLOG guides STYLES START======================*/
 
