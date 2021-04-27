@@ -816,15 +816,15 @@ body {
   flex-direction: column;
   position: absolute;
 }
+.services-box-content > a:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
 .services-box-place-link {
   font-weight: 600;
   display: flex;
   align-items: center;
   color: #042521;
-}
-.services-box-place-link:hover {
-  text-decoration: underline;
-  transition: 0.3s;
 }
 .services-box-country-link {
   font-weight: 300;
@@ -832,10 +832,118 @@ body {
 }
 /*=====================SERVICES STYLES END======================*/
 /*=====================BLOG guides STYLES START======================*/
-
+.blog-guides{
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+.blog-guides-img{
+  width: 600px;
+  height: auto;
+  margin-left: 90px;
+}
 /*=====================BLOG guides STYLES END======================*/
 /*=====================testimonials STYLES START======================*/
-
+.testimonials {
+  padding-top: 165px;
+  padding-bottom: 165px;
+}
+.testimonials-box {
+  position: relative;
+}
+.testimonials-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating-result {
+  width: 190px;
+  margin-bottom: 30px;
+}
+.rating-result > span:before {
+  content: "★";
+}
+.rating-result span {
+  color: #FFBB0C;
+  font-size: 25px;
+  margin: 0 3px;
+  line-height: 1;
+}
+.testimonials-text {
+  width: 450px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.testimonials-name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+}
+.testimonials-founder {
+  font-family: "Inter Regular", serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.testimonials-img {
+  width: 385px;
+  border-radius: 15px;
+  height: auto;
+  object-fit: cover;
+}
+.testimonials-img-box {
+  display: flex;
+}
+.slider-btn {
+  border-radius: 16px 0px 0px 0px;
+  background: #fff;
+  width: 132px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.slider-button-prev {
+  margin: 20px 20px 0 30px;
+  background: url("../img/arrow-prev.svg") no-repeat 0 0 / cover;
+  transform: scaleX(1);
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.slider-button-prev:hover {
+  background: url("../img/arrow-next.svg") no-repeat 0 0 / cover;
+  transform: scaleX(-1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.slider-button-next {
+  margin-top: 20px;
+  background: url("../img/arrow-prev.svg") no-repeat 0 0 / cover;
+  transform: scaleX(-1);
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.slider-button-next:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background: url("../img/arrow-next.svg") no-repeat 0 0 / cover;
+  transform: scaleX(1);
+}
 /*=====================testimonials STYLES END======================*/
 /*=====================trending STYLES START======================*/
 
