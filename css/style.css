@@ -449,7 +449,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -603,6 +602,11 @@ body {
   border-radius: 8px;
   border: 1px solid #fb8f1d;
 }
+.logo-hover:hover {
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
 /*=====================COMMON STYLES END======================*/
 /*=====================HEADER STYLES START======================*/
 .header {
@@ -614,7 +618,7 @@ body {
   display: flex;
   align-items: center;
 }
-.navbar img {
+.logo {
   margin-right: 420px;
 }
 .nav a {
@@ -832,11 +836,11 @@ body {
 }
 /*=====================SERVICES STYLES END======================*/
 /*=====================BLOG guides STYLES START======================*/
-.blog-guides{
+.blog-guides {
   padding-top: 85px;
   padding-bottom: 85px;
 }
-.blog-guides-img{
+.blog-guides-img {
   width: 600px;
   height: auto;
   margin-left: 90px;
@@ -870,7 +874,7 @@ body {
   content: "★";
 }
 .rating-result span {
-  color: #FFBB0C;
+  color: #ffbb0c;
   font-size: 25px;
   margin: 0 3px;
   line-height: 1;
@@ -948,7 +952,7 @@ body {
 /*=====================trending STYLES START======================*/
 .trending {
   padding-top: 105px;
-  padding-bottom: 105px;
+  padding-bottom: 270px;
 }
 .trending-content {
   display: flex;
@@ -1023,5 +1027,98 @@ body {
 }
 /*=====================trending STYLES END======================*/
 /*=====================FOOTER START======================*/
-
+.footer {
+  padding-top: 80px;
+  padding-bottom: 35px;
+  background: #f9f9fb;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  color: #212353;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 40px;
+}
+.nav-footer {
+  margin-bottom: 35px;
+}
+.footer-information {
+  width: 300px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #848484;
+  margin-bottom: 55px;
+}
+.footer-data-company {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+  color: #848484;
+}
+.footer-nav-links {
+  width: 690px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-social {
+  font-family: "Mulish Bold", sans-serif;
+  font-size: 19px;
+  line-height: 60px;
+  color: #000000;
+}
+.footer-navbar {
+  font-family: "avenir";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 250%;
+}
+.footer-navbar a:hover {
+  text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
+  transition: 0.3s;
+}
+.footer-navbar li {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icon > img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+.icon:nth-child(n + 2) {
+  margin-left: 10px;
+}
+.fullw-separator {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 30px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.social-icons li {
+  width: 40px;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.social-icons li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.social-icons li:nth-child(n + 2) {
+  margin-left: 45px;
+}
 /*=====================FOOTER END======================*/
