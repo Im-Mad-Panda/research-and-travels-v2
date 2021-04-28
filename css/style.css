@@ -820,17 +820,21 @@ body {
   flex-direction: column;
   position: absolute;
 }
-.services-box-content > a:hover {
+.services-box-place-link{
+  display: flex;
+    flex-direction: column;
+}
+.services-box-place-link:hover{
   text-decoration: underline;
   transition: 0.3s;
 }
-.services-box-place-link {
+.services-box-place-link > a {
   font-weight: 600;
   display: flex;
   align-items: center;
   color: #042521;
 }
-.services-box-country-link {
+.services-box-place-link > span {
   font-weight: 300;
   color: #7d7987;
 }
