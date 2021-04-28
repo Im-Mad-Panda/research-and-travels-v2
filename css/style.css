@@ -1114,6 +1114,42 @@ body {
 .social-icons li:nth-child(n + 2) {
   margin-left: 30px;
 }
-
-
 /*=====================FOOTER END======================*/
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .container-wide {
+    max-width: 100%;
+  }
+}
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .container-narrow {
+    max-width: 960px;
+  }
+
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .container-narrow {
+    max-width: 720px;
+  }
+
+}
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .container-narrow {
+    max-width: 540px;
+  }
+
+}
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+/* // XX-Small devices (portrait phones(iPhone5/5s/SE), equals to 320px) */
+@media (max-width: 320px) {
+
+}
