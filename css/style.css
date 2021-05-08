@@ -820,11 +820,11 @@ body {
   flex-direction: column;
   position: absolute;
 }
-.services-box-place-link{
+.services-box-place-link {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
-.services-box-place-link:hover{
+.services-box-place-link:hover {
   text-decoration: underline;
   transition: 0.3s;
 }
@@ -1120,36 +1120,216 @@ body {
 
 /* // X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-  .container-wide {
+  .container {
     max-width: 100%;
+    padding: 0 15px;
+  }
+  .logo {
+    margin-right: 443px;
   }
 }
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-  .container-narrow {
+  .container {
     max-width: 960px;
   }
-
+  .logo {
+    margin-right: 220px;
+  }
+  .hero-img {
+    width: 410px;
+  }
+  .blog-img {
+    width: 490px;
+    margin-right: 20px;
+  }
+  .services-img {
+    width: 220px;
+  }
+  .blog-guides-img {
+    width: 465px;
+    margin-left: 0px;
+  }
+  .trending-box {
+    width: 220px;
+  }
+  .trending-title-box {
+    width: 230px;
+  }
 }
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .container-narrow {
+  .container {
     max-width: 720px;
   }
-
+  .logo {
+    margin-right: 6px;
+  }
+  .navbar > ul {
+    margin-right: 10px;
+  }
+  .hero-section {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .blog-media {
+    flex-direction: column;
+  }
+  .blog-media-guides {
+    flex-direction: column-reverse;
+  }
+  .services-img {
+    width: 165px;
+  }
+  .testimonials-text {
+    width: 300px;
+  }
+  .trending-box {
+    width: 165px;
+  }
+  .trending-title-box {
+    width: 165px;
+  }
+  .trending-img {
+    height: 50%;
+  }
 }
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  .container-narrow {
+  .container {
     max-width: 540px;
   }
-
+  .navbar,
+  .nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .navbar > ul {
+    margin-right: 0px;
+  }
+  .nav > li:nth-child(n + 1) {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  .header-btn-reg {
+    margin-left: 0px;
+  }
+  .header-btn-log {
+    margin-bottom: 15px;
+  }
+  .services-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-box {
+    margin-bottom: 15px;
+  }
+  .testimonials-img {
+    width: 280px;
+  }
+  .testimonials-text {
+    width: 240px;
+    font-size: 20px;
+  }
+  .slider-btn {
+    bottom: 6px;
+  }
+  .trending-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .trending-box {
+    margin-bottom: 15px;
+  }
+  .services-img {
+    width: 200px;
+  }
+  .trending-box {
+    width: 200px;
+  }
+  .trending-title-box {
+    width: 200px;
+  }
+  .footer-nav {
+    flex-direction: column;
+  }
+  .footer-nav-links {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+  .container {
+    padding: 0 15px;
+  }
+  .hero-img {
+    width: 265px;
+  }
+  .hero-title {
+    width: 270px;
+    font-size: 45px;
+  }
+  .blog-img {
+    width: 290px;
+    margin-right: 0px;
+  }
+  .swiper-slide,
+  .swiper-slide-activ {
+    display: flex;
+    flex-direction: column;
+  }
+  .slider-btn {
+    bottom: 0px;
+  }
+  .blog-title {
+    font-size: 28px;
+  }
+  .blog-text {
+    width: 260px;
+    font-size: 17px;
+  }
+  .footer-information {
+    width: 270px;
+  }
+  .services-content,
+  .services-section {
+    flex-direction: column;
+  }
+  .blog-guides-img {
+    width: 270px;
+  }
+  .trending-content {
+    flex-direction: column;
+  }
+  .footer-nav-links {
+    width: 250px;
+    flex-direction: column;
+  }
+  .hero {
+    padding-bottom: 35px;
+  }
+  .blog {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .services {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  .testimonials {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+  .trending {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 /* // XX-Small devices (portrait phones(iPhone5/5s/SE), equals to 320px) */
 @media (max-width: 320px) {
-
 }
