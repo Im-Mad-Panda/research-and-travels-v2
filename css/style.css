@@ -770,16 +770,18 @@ body {
   padding-top: 155px;
   padding-bottom: 155px;
 }
-.services-content,
-.services-section {
-  display: flex;
-  justify-content: space-between;
-}
+
 .services-title {
   font-family: "Playfair Display", serif;
   font-size: 36px;
   line-height: 50px;
   color: #000000;
+}
+.services-subtitle{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
 }
 .services-btn {
   width: 100px;
@@ -885,7 +887,7 @@ body {
 }
 .testimonials-text {
   width: 450px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
   line-height: 36px;
   color: #000000;
