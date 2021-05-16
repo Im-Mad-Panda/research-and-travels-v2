@@ -589,7 +589,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "avenir", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Inter", "Inter Regular", "Inter Bold", "Mulish", "Mulish Bold", "Mulish Regular", "Playfair Display", Arial, "Helvetica Neue", Helvetica, sans-serif;
   background-color: #fff;
   color: #000000;
 }
@@ -760,7 +760,7 @@ body {
   width: 420px;
   font-weight: 300;
   font-size: 17px;
-  line-height: 15px;
+  line-height: 30px;
   color: #7d7987;
   margin-bottom: 30px;
 }
@@ -836,9 +836,11 @@ body {
 }
 .services-box-place-link > a {
   font-weight: 600;
-  display: flex;
-  align-items: center;
-  color: #042521;
+font-size: 17px;
+line-height: 25px;
+display: flex;
+align-items: center;
+color: #042521;
 }
 .services-box-place-link > span {
   font-weight: 300;
