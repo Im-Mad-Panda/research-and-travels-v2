@@ -770,7 +770,11 @@ body {
   padding-top: 155px;
   padding-bottom: 155px;
 }
-
+.services-content, .services-section{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
 .services-title {
   font-family: "Playfair Display", serif;
   font-size: 36px;
