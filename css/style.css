@@ -747,7 +747,7 @@ body {
 .blog-img {
   width: 660px;
   height: auto;
-  margin-right: 60px;
+  margin-right: 30px;
 }
 .blog-title {
   font-family: "Playfair Display", serif;
@@ -757,7 +757,6 @@ body {
   margin-bottom: 20px;
 }
 .blog-text {
-  width: 420px;
   font-weight: 300;
   font-size: 17px;
   line-height: 30px;
