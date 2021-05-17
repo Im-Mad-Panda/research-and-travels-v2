@@ -1001,17 +1001,21 @@ color: #042521;
   display: flex;
   justify-content: space-between;
 }
+.box-content{
+  flex-grow: 1;
+}
 .trending-box {
+  display: flex;
+  flex-direction: column;
   width: 260px;
 }
 .trending-img {
   border-radius: 10px 10px 0 0;
   width: 100%;
-  height: 60%;
+  height: 320px;
   object-fit: cover;
 }
 .trending-title-box {
-  width: 255px;
   font-family: "Inter Bold", serif;
   font-size: 19px;
   line-height: 30px;
